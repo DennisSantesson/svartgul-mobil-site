@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Villkor | Svartgul mobil</title>
+  <meta name="description" content="Användarvillkor för appen Svartgul mobil.">
+  <meta name="terms-version" content="2026-11-01">
+  <style>
+    @font-face { font-family: 'Bebas Neue'; src: url('fonts/BebasNeue_400Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/Inter_400Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/Inter_600SemiBold.ttf') format('truetype'); font-weight: 600; font-display: swap; }
+  </style>
+  <style>
+    :root {
+      --bg: #0D111C;
+      --bg2: #121827;
+      --card: #1A2033;
+      --raised: #242C44;
+      --border: #2E3650;
+      --fg: #F6F4EE;
+      --muted: #A3AABF;
+      --accent: #FFC61A;
+      --on-accent: #121827;
+      --accent-line: rgba(255, 198, 26, 0.38);
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg2);
+      color: var(--fg);
+      font: 400 17px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      overflow-wrap: break-word;
+    }
+    a { color: var(--fg); text-decoration: underline; text-underline-offset: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+    .bar { background: var(--bg); border-bottom: 1px solid var(--border); }
+    .bar-in { max-width: 760px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .mark { font-family: 'Bebas Neue', 'Inter', sans-serif; font-size: 26px; letter-spacing: 0.5px; line-height: 1; color: var(--accent); text-decoration: none; }
+    .mark small { display: block; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0; color: var(--muted); margin-top: 4px; }
+    nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 15px; }
+    nav a { text-decoration: none; color: var(--muted); }
+    nav a[aria-current="page"] { color: var(--fg); text-decoration: underline; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+    h1, h2 { font-family: 'Bebas Neue', 'Inter', sans-serif; font-weight: 400; color: var(--accent); letter-spacing: 0.5px; line-height: 1.05; }
+    h1 { font-size: 44px; margin: 0 0 8px; }
+    h2 { font-size: 28px; margin: 40px 0 8px; }
+    h3 { font-size: 17px; font-weight: 600; margin: 24px 0 4px; }
+    p, ul, ol { margin: 0 0 12px; }
+    ul, ol { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .lead { font-size: 19px; }
+    .meta { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+    .notice { background: var(--card); border: 1px solid var(--accent-line); border-radius: 12px; padding: 16px 18px; margin: 24px 0; }
+    .notice p:last-child { margin-bottom: 0; }
+    .item { background: var(--card); border-radius: 12px; padding: 16px 18px; margin: 12px 0; }
+    .item h3 { margin-top: 0; }
+    .item dl { margin: 0; }
+    .item dt { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: 0.4px; margin-top: 10px; }
+    .item dd { margin: 2px 0 0; }
+    .toc { background: var(--card); border-radius: 12px; padding: 14px 18px; margin: 24px 0; font-size: 15px; }
+    .toc ol { margin: 0; }
+    .button { display: inline-block; background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none; padding: 12px 24px; border-radius: 999px; margin: 8px 0 16px; }
+    details { background: var(--card); border-radius: 12px; padding: 12px 18px; margin: 10px 0; }
+    summary { cursor: pointer; font-weight: 600; }
+    details[open] summary { margin-bottom: 8px; }
+    footer { border-top: 1px solid var(--border); background: var(--bg); }
+    .foot { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; color: var(--muted); font-size: 15px; }
+    .foot a { color: var(--muted); }
+    @media (max-width: 480px) {
+      h1 { font-size: 36px; }
+      h2 { font-size: 26px; }
+      body { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="bar">
+    <div class="bar-in">
+      <a class="mark" href="index.html">Svartgul mobil<small>av Allmanbiljett.se</small></a>
+      <nav aria-label="Sidor">
+        <a href="index.html">Start</a>
+        <a href="villkor.html" aria-current="page">Villkor</a>
+        <a href="integritetspolicy.html">Integritet</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Villkor</h1>
+    <p class="meta">Användarvillkor för Svartgul mobil. Gäller från 1 november 2026 (version 2026-11-01). <a href="terms.html" hreflang="en">In English</a></p>
+
+    <div class="notice">
+      <p>Svartgul mobil är ett fristående supporterinitiativ och är inte officiellt kopplat till AIK. AIK har inte tagit fram, godkänt eller sponsrat appen och ansvarar inte för den.</p>
+    </div>
+
+    <nav class="toc" aria-label="Innehåll">
+      <ol>
+        <li><a href="#tjansten">Tjänsten</a></li>
+        <li><a href="#konto">Ditt konto</a></li>
+        <li><a href="#matchlaget">Matchläget och mätningen</a></li>
+        <li><a href="#poang">Poäng, nivåer och erbjudanden</a></li>
+        <li><a href="#alias">Alias och regler för innehåll</a></li>
+        <li><a href="#rapportera">Rapportera och blockera</a></li>
+        <li><a href="#fusk">Fusk och missbruk</a></li>
+        <li><a href="#avsluta">Avsluta och stänga konton</a></li>
+        <li><a href="#ansvar">Ansvar</a></li>
+        <li><a href="#rattigheter">Rättigheter till appen</a></li>
+        <li><a href="#uppgifter">Personuppgifter</a></li>
+        <li><a href="#andringar">Ändringar</a></li>
+        <li><a href="#lag">Lag och tvister</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="tjansten">1. Tjänsten</h2>
+    <p>Svartgul mobil (av Allmanbiljett.se) är en gratis app som belönar supportrar som låter mobilen vara låst under matchen. Appen ges ut av Dennis Santesson, privatperson i Sverige ("vi"). Villkoren gäller mellan dig och oss när du använder appen. Du godkänner dem när du skapar ett konto.</p>
+    <p>Appen är gratis. Det finns inga köp i appen.</p>
+
+    <h2 id="konto">2. Ditt konto</h2>
+    <ul>
+      <li>Du skapar kontot med din egen e-postadress och ett lösenord. Använd en adress du har tillgång till.</li>
+      <li>Kontot är personligt. Ha bara ett konto och låt ingen annan använda det.</li>
+      <li>Håll lösenordet hemligt. Misstänker du att någon annan använder ditt konto, byt lösenord med Glömt lösenord och kontakta oss.</li>
+      <li>Du måste vara minst 13 år för att använda appen.</li>
+    </ul>
+
+    <h2 id="matchlaget">3. Matchläget och mätningen</h2>
+    <ul>
+      <li>Du startar matchläget själv när du är på arenan. Appen kollar en gång att du är på plats. Bara matcher med verifierad plats ger poäng och räknas i topplistorna.</li>
+      <li>Minuterna räknas av vår server utifrån när mobilen låses och låses upp under speltid, enligt reglerna i appen (Så funkar det). Siffror under matchen är preliminära. Det slutliga resultatet är det som servern räknar fram efter slutsignalen.</li>
+      <li>Mätningen beror på mobilen, täckningen och tider som registreras under matchen. Vi gör vårt bästa men kan inte lova att varje minut alltid kommer med. Vi kan räkna om resultat, till exempel om en matchtid rättas eller ett fel upptäcks.</li>
+      <li>Följ arenans regler och var uppmärksam på din omgivning. Appen ersätter inte ditt eget ansvar för din säkerhet.</li>
+    </ul>
+
+    <h2 id="poang">4. Poäng, nivåer och erbjudanden</h2>
+    <ul>
+      <li>Poäng och nivåer är ett sätt att visa hur du har gjort i appen. <strong>Poäng har inget ekonomiskt värde.</strong> De kan inte växlas mot pengar, säljas, överlåtas till någon annan eller ärvas.</li>
+      <li><strong>Inga priser eller förmåner är utlovade.</strong> Om vi i framtiden erbjuder något kopplat till nivåer gäller särskilda villkor för det, och ingen har rätt till ett erbjudande bara för att ha samlat poäng.</li>
+      <li>Vi kan ändra regler för poäng och nivåer framåt i tiden, till exempel per säsong. Redan räknade matcher räknas inte om på grund av en regeländring.</li>
+      <li>Vi kan ta bort poäng som har fåtts genom fusk eller fel.</li>
+    </ul>
+
+    <h2 id="alias">5. Alias och regler för innehåll</h2>
+    <p>Det enda du själv skriver i appen som andra kan se är ditt alias. Det syns för andra inloggade användare i topplistan och fokuslistan om du har valt att synas där.</p>
+    <p>Ditt alias får inte:</p>
+    <ul>
+      <li>vara stötande, nedsättande, hatiskt eller hotfullt, till exempel mot någons etnicitet, religion, kön, sexuella läggning, funktionsnedsättning eller ålder,</li>
+      <li>vara sexuellt, våldsamt eller uppmana till brott, självskada eller våld,</li>
+      <li>utge sig för att vara någon annan, till exempel en verklig person, en spelare, AIK, Svartgul mobil, en administratör eller support,</li>
+      <li>innehålla någon annans personuppgifter, som ett riktigt namn utan samtycke, telefonnummer eller adress,</li>
+      <li>användas för reklam eller länkar.</li>
+    </ul>
+    <p><strong>Vi har nolltolerans mot stötande alias.</strong> Appen stoppar många ord direkt, men allt fångas inte. Bryter ett alias mot reglerna kan vi utan förvarning dölja det, kräva att du byter alias, ta bort poäng eller stänga kontot. Ett alias som har dolts eller tagits bort kan inte väljas igen.</p>
+
+    <h2 id="rapportera">6. Rapportera och blockera</h2>
+    <ul>
+      <li><strong>Rapportera:</strong> håll inne på ett alias i topplistan eller fokuslistan och välj Rapportera alias. Den du rapporterar får aldrig veta att det var du.</li>
+      <li><strong>Blockera:</strong> håll inne på raden och välj Blockera. Personen försvinner från dina listor och får inte veta att du har blockerat. Du häver blockeringen under Profil, Integritet och data, Blockerade.</li>
+      <li>När tre betrodda användare har rapporterat ett alias döljs det automatiskt för andra medan vi granskar det. Vi går igenom rapporter inom 72 timmar.</li>
+      <li>Du kan också mejla <a href="mailto:info@tickettaka.se">info@tickettaka.se</a> för att rapportera något.</li>
+      <li>Missbruk av rapportfunktionen, till exempel samordnade falska rapporter, räknas som brott mot villkoren.</li>
+    </ul>
+
+    <h2 id="fusk">7. Fusk och missbruk</h2>
+    <p>Du får inte:</p>
+    <ul>
+      <li>lura platskollen eller mätningen, till exempel med falsk position, en ändrad app eller automatiska verktyg,</li>
+      <li>skapa flera konton för att påverka topplistor, läktartävlingen eller rapporter,</li>
+      <li>försöka komma åt någon annans konto eller uppgifter, eller störa appen eller servern.</li>
+    </ul>
+
+    <h2 id="avsluta">8. Avsluta och stänga konton</h2>
+    <ul>
+      <li>Du kan när som helst radera ditt konto i appen under <strong>Profil, Radera konto</strong>. Kontot raderas direkt och det går inte att ångra. Vad som händer med dina uppgifter står i <a href="integritetspolicy.html#radera">integritetspolicyn</a>.</li>
+      <li>Vi kan stänga av eller radera ett konto som bryter mot villkoren. Vid allvarliga eller upprepade brott gör vi det utan förvarning.</li>
+      <li>Vi kan ändra, pausa eller lägga ner appen. Läggs den ner meddelar vi det i god tid när det är möjligt.</li>
+    </ul>
+
+    <h2 id="ansvar">9. Ansvar</h2>
+    <p>Appen tillhandahålls gratis och i befintligt skick. Vi lovar inte att den alltid fungerar, är fri från fel eller att resultat alltid blir rätt. Vi ansvarar inte för indirekta skador, till exempel en missad händelse eller förlorade poäng. Begränsningarna gäller inte om vi har orsakat skadan med uppsåt eller grov vårdslöshet, och de begränsar inte rättigheter som du har enligt tvingande lag.</p>
+
+    <h2 id="rattigheter">10. Rättigheter till appen</h2>
+    <p>Appen, dess text, design och kod tillhör utgivaren. Du får använda appen för ditt eget, privata bruk. AIK:s namn och kännetecken tillhör AIK. Namnet AIK används i appen bara för att ange vilka matcher det gäller. Appen använder inte AIK:s logotyp eller klubbmärke.</p>
+
+    <h2 id="uppgifter">11. Personuppgifter</h2>
+    <p>Hur vi behandlar dina uppgifter står i <a href="integritetspolicy.html">integritetspolicyn</a>.</p>
+
+    <h2 id="andringar">12. Ändringar</h2>
+    <p>Vi kan ändra villkoren. Väsentliga ändringar meddelar vi i god tid innan de börjar gälla, till exempel via e-post till adressen på ditt konto. Fortsätter du använda appen efter att ändringen har börjat gälla, godkänner du de nya villkoren. Vill du inte det kan du radera kontot.</p>
+
+    <h2 id="lag">13. Lag och tvister</h2>
+    <p>Svensk lag gäller. Hör av dig till oss först, så försöker vi lösa det. Tvister prövas annars av svensk allmän domstol.</p>
+
+    <h2 id="kontakt">14. Kontakt</h2>
+    <p>Frågor om villkoren eller appen: <a href="mailto:info@tickettaka.se">info@tickettaka.se</a>. Mer hjälp finns på <a href="support.html">supportsidan</a>.</p>
+  </main>
+  <footer>
+    <div class="foot">
+      <p>Svartgul mobil är ett fristående supporterinitiativ och är inte officiellt kopplat till AIK.</p>
+      <p>Utgivare och personuppgiftsansvarig: Dennis Santesson, privatperson. <a href="mailto:info@tickettaka.se">info@tickettaka.se</a></p>
+      <p><a href="villkor.html">Villkor</a> · <a href="integritetspolicy.html">Integritetspolicy</a> · <a href="support.html">Support</a></p>
+    </div>
+  </footer>
+</body>
+</html>

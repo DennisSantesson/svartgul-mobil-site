@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integritetspolicy | Svartgul mobil</title>
+  <meta name="description" content="Hur appen Svartgul mobil behandlar personuppgifter.">
+  <style>
+    @font-face { font-family: 'Bebas Neue'; src: url('fonts/BebasNeue_400Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/Inter_400Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/Inter_600SemiBold.ttf') format('truetype'); font-weight: 600; font-display: swap; }
+  </style>
+  <style>
+    :root {
+      --bg: #0D111C;
+      --bg2: #121827;
+      --card: #1A2033;
+      --raised: #242C44;
+      --border: #2E3650;
+      --fg: #F6F4EE;
+      --muted: #A3AABF;
+      --accent: #FFC61A;
+      --on-accent: #121827;
+      --accent-line: rgba(255, 198, 26, 0.38);
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg2);
+      color: var(--fg);
+      font: 400 17px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      overflow-wrap: break-word;
+    }
+    a { color: var(--fg); text-decoration: underline; text-underline-offset: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+    .bar { background: var(--bg); border-bottom: 1px solid var(--border); }
+    .bar-in { max-width: 760px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .mark { font-family: 'Bebas Neue', 'Inter', sans-serif; font-size: 26px; letter-spacing: 0.5px; line-height: 1; color: var(--accent); text-decoration: none; }
+    .mark small { display: block; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0; color: var(--muted); margin-top: 4px; }
+    nav { display: flex; gap: 14px; flex-wrap: wrap; font-size: 15px; }
+    nav a { text-decoration: none; color: var(--muted); }
+    nav a[aria-current="page"] { color: var(--fg); text-decoration: underline; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+    h1, h2 { font-family: 'Bebas Neue', 'Inter', sans-serif; font-weight: 400; color: var(--accent); letter-spacing: 0.5px; line-height: 1.05; }
+    h1 { font-size: 44px; margin: 0 0 8px; }
+    h2 { font-size: 28px; margin: 40px 0 8px; }
+    h3 { font-size: 17px; font-weight: 600; margin: 24px 0 4px; }
+    p, ul, ol { margin: 0 0 12px; }
+    ul, ol { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .lead { font-size: 19px; }
+    .meta { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+    .notice { background: var(--card); border: 1px solid var(--accent-line); border-radius: 12px; padding: 16px 18px; margin: 24px 0; }
+    .notice p:last-child { margin-bottom: 0; }
+    .item { background: var(--card); border-radius: 12px; padding: 16px 18px; margin: 12px 0; }
+    .item h3 { margin-top: 0; }
+    .item dl { margin: 0; }
+    .item dt { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: 0.4px; margin-top: 10px; }
+    .item dd { margin: 2px 0 0; }
+    .toc { background: var(--card); border-radius: 12px; padding: 14px 18px; margin: 24px 0; font-size: 15px; }
+    .toc ol { margin: 0; }
+    .button { display: inline-block; background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none; padding: 12px 24px; border-radius: 999px; margin: 8px 0 16px; }
+    details { background: var(--card); border-radius: 12px; padding: 12px 18px; margin: 10px 0; }
+    summary { cursor: pointer; font-weight: 600; }
+    details[open] summary { margin-bottom: 8px; }
+    footer { border-top: 1px solid var(--border); background: var(--bg); }
+    .foot { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; color: var(--muted); font-size: 15px; }
+    .foot a { color: var(--muted); }
+    @media (max-width: 480px) {
+      h1 { font-size: 36px; }
+      h2 { font-size: 26px; }
+      body { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="bar">
+    <div class="bar-in">
+      <a class="mark" href="index.html">Svartgul mobil<small>av Allmanbiljett.se</small></a>
+      <nav aria-label="Sidor">
+        <a href="index.html">Start</a>
+        <a href="villkor.html">Villkor</a>
+        <a href="integritetspolicy.html" aria-current="page">Integritet</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Integritetspolicy</h1>
+    <p class="meta">Svartgul mobil. Gäller från 1 november 2026. <a href="privacy.html" hreflang="en">In English</a></p>
+
+    <p class="lead">Den här policyn beskriver vilka uppgifter appen Svartgul mobil behandlar, varför, hur länge de sparas och vilka rättigheter du har. Den beskriver det appen faktiskt gör, inget annat.</p>
+
+    <div class="notice">
+      <p><strong>Kort sagt.</strong> Appen mäter när mobilen låses och låses upp under en match. Platsen kollas en gång när du startar matchläget, och vi sparar bara svaret ja eller nej, aldrig var du är. Andra ser bara ditt alias, och bara om du har valt att synas i topplistorna. Vi säljer inga uppgifter, visar ingen reklam och har ingen analys eller spårning i appen. Du kan radera ditt konto direkt i appen.</p>
+    </div>
+
+    <nav class="toc" aria-label="Innehåll">
+      <ol>
+        <li><a href="#ansvarig">Vem som ansvarar</a></li>
+        <li><a href="#uppgifter">Vilka uppgifter, varför och hur länge</a></li>
+        <li><a href="#plats">Platskollen</a></li>
+        <li><a href="#andra">Vad andra användare ser</a></li>
+        <li><a href="#mobilen">Det som bara finns i din mobil</a></li>
+        <li><a href="#mottagare">Vilka som behandlar uppgifterna åt oss</a></li>
+        <li><a href="#overforing">Överföring utanför EU</a></li>
+        <li><a href="#radera">Radera ditt konto</a></li>
+        <li><a href="#rattigheter">Dina rättigheter</a></li>
+        <li><a href="#sakerhet">Säkerhet</a></li>
+        <li><a href="#barn">Barn</a></li>
+        <li><a href="#andringar">Ändringar</a></li>
+        <li><a href="#kontakt">Kontakt och klagomål</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="ansvarig">1. Vem som ansvarar</h2>
+    <p>Personuppgiftsansvarig är Dennis Santesson, privatperson i Sverige, som ger ut Svartgul mobil. Du når oss på <a href="mailto:info@tickettaka.se">info@tickettaka.se</a>. När policyn säger "vi" menas utgivaren.</p>
+    <p>Svartgul mobil är ett fristående supporterinitiativ och är inte officiellt kopplat till AIK. AIK får inga uppgifter om dig från appen.</p>
+
+    <h2 id="uppgifter">2. Vilka uppgifter, varför och hur länge</h2>
+    <p>Den rättsliga grunden anges enligt artikel 6.1 i dataskyddsförordningen (GDPR): <strong>avtal</strong> (b) betyder att uppgifterna behövs för att ge dig tjänsten enligt <a href="villkor.html">villkoren</a>, <strong>samtycke</strong> (a) att du själv har valt det och kan ändra dig när som helst, och <strong>berättigat intresse</strong> (f) att vi behöver uppgifterna för säkerhet och för att hålla tjänsten fri från missbruk.</p>
+
+    <section class="item">
+      <h3>Konto och inloggning</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>E-postadress, lösenord, när kontot skapades och när du senast loggade in. Lösenordet sparas bara som ett hashvärde hos vår inloggningstjänst (Supabase Auth). Vi kan aldrig se ditt lösenord, och appen sparar det inte.</dd>
+        <dt>Varför</dt>
+        <dd>För att du ska kunna logga in, och för att skicka en kod med 6 siffror till din e-post när du väljer Glömt lösenord. Vi skickar inga andra mejl från appen.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Avtal.</dd>
+        <dt>Hur länge</dt>
+        <dd>Tills du raderar kontot.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Godkännande av villkoren</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>Vilken version av villkoren du godkände och när (serverns tid).</dd>
+        <dt>Varför</dt>
+        <dd>För att kunna visa vilka villkor som gäller för dig.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Berättigat intresse.</dd>
+        <dt>Hur länge</dt>
+        <dd>Tills du raderar kontot. Bara den senast godkända versionen sparas.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Profil</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>Ditt alias, om du vill synas i topplistorna (ja, nej eller inte valt än) och din vanliga läktare om du har valt en.</dd>
+        <dt>Varför</dt>
+        <dd>Aliaset är det namn andra kan se. Läktaren är förvald när du startar matchläget.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Avtal. Att synas i topplistorna är ditt eget val (samtycke), se <a href="#andra">avsnitt 4</a>.</dd>
+        <dt>Hur länge</dt>
+        <dd>Tills du ändrar dem eller raderar kontot.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Matchläget och låsningar</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>
+          För varje match du startar matchläget för: när du startade, plattform (iOS eller Android), vilken läktare du valt och om platskollen gav ja eller nej.
+          Under matchen: händelser när mobilen låses och låses upp, med tidsstämplar från mobilens interna klocka och mobilens vanliga klocka, ett id för mobilens senaste omstart och tidpunkter från servern som används för att räkna om mobilens tid till serverns tid.
+          Till händelserna hör tekniska uppgifter om mobilens läge just då, som om appen var öppen, skärmens ljusstyrka, om en lösenkod är inställd, om strömsparläge eller flygplansläge var på, om notiser är påslagna och felkoder från appens mätning.
+        </dd>
+        <dt>Det vi inte samlar in</dt>
+        <dd>Vad du gör i mobilen, vilka andra appar du öppnar, vad du skriver eller något innehåll i mobilen.</dd>
+        <dt>Varför</dt>
+        <dd>För att räkna dina låsta minuter under speltid. Servern räknar om allt från händelserna och kontrollerar dem, så att tiden blir rätt även om mobilen startas om eller saknar täckning.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Avtal.</dd>
+        <dt>Hur länge</dt>
+        <dd>Tills du raderar kontot. Vi rensar inte gamla matcher automatiskt, eftersom de bygger din historik och statistik.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Resultat, poäng och nivåer</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>Per match: minuter, verifierade minuter, andel av speltiden, full fokus, längsta låsning, antal avbrott och poäng. Dessutom en poänghistorik och din nivå i säsongen.</dd>
+        <dt>Varför</dt>
+        <dd>För att visa din statistik, räkna poäng och nivåer och bygga topplistor och läktartävlingen.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Avtal.</dd>
+        <dt>Hur länge</dt>
+        <dd>Tills du raderar kontot. Poänghistoriken avidentifieras då i stället för att raderas, se <a href="#radera">avsnitt 8</a>.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Notiser</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>Om du tillåter notiser: mobilens notis-token, plattform, ett hashvärde av en slumpad nyckel som skapas när appen installeras och när token senast registrerades. Dessutom vilka notiser som skickats till dig för en match. Om en token försöker kopplas till ett annat konto loggas försöket.</dd>
+        <dt>Varför</dt>
+        <dd>För att skicka högst fyra notiser per match: före avspark, i halvtid, när andra halvlek börjar och vid slutsignal. Nyckeln gör att en notis-token inte kan kopplas till fel konto.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Avtal för själva notiserna, som du slår av och på i mobilens inställningar. Berättigat intresse för nyckeln och loggen över försök.</dd>
+        <dt>Hur länge</dt>
+        <dd>En token tas bort när du loggar ut, när den inte längre fungerar eller 30 dagar efter att den senast registrerades. Allt om notiser tas bort när du raderar kontot.</dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Rapporter, blockeringar och granskning av alias</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>
+          Rapporter du skickar (vilket alias, skäl och tid) och om ditt konto räknades som betrodd rapportör (kontot är minst ett dygn gammalt och har minst en match med verifierad plats).
+          Rapporter mot ditt alias.
+          Blockeringar du gör (aliaset du såg och tid).
+          Om ditt alias har dolts eller behöver bytas: aliaset och när det hände.
+        </dd>
+        <dt>Varför</dt>
+        <dd>För att stoppa stötande alias och skydda användarna. Ett alias döljs automatiskt för andra när tre betrodda användare har rapporterat det. Därefter granskar vi det manuellt och antingen visar det igen eller ber om ett nytt alias. Den du rapporterar får aldrig veta vem som rapporterade, och den du blockerar får aldrig veta att du har blockerat.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Berättigat intresse.</dd>
+        <dt>Hur länge</dt>
+        <dd>
+          Blockeringar finns kvar tills du häver dem eller något av kontona raderas. Rapporter mot dig och granskningshistoriken tas bort när du raderar kontot.
+          Rapporter du har skickat finns kvar efter att du raderat kontot, men utan koppling till dig.
+          En rapport som har avslutats, till exempel för att aliaset har bytts eller granskats, raderas 12 månader efter att den avslutades.
+        </dd>
+      </dl>
+    </section>
+
+    <section class="item">
+      <h3>Tekniska loggar</h3>
+      <dl>
+        <dt>Uppgifter</dt>
+        <dd>När appen pratar med servern registrerar vår driftleverantör (Supabase) tekniska uppgifter som IP-adress, tidpunkt, vilken funktion som anropades och svarskod. Det gäller även inloggningar. Våra egna felloggar innehåller bara felkoder, aldrig position eller innehåll.</dd>
+        <dt>Varför</dt>
+        <dd>För drift, felsökning och skydd mot missbruk, till exempel för många inloggningsförsök.</dd>
+        <dt>Rättslig grund</dt>
+        <dd>Berättigat intresse.</dd>
+        <dt>Hur länge</dt>
+        <dd>Högst 7 dagar.</dd>
+      </dl>
+    </section>
+
+    <p>Vi använder inga uppgifter till reklam, säljer inga uppgifter och fattar inga beslut om dig som har rättsliga följder eller liknande betydande påverkan. Poäng och minuter räknas automatiskt enligt reglerna i appen (Så funkar det).</p>
+
+    <h2 id="plats">3. Platskollen</h2>
+    <p>När du startar matchläget ber appen iOS om din position en gång (behörigheten "När appen används"). Positionen, med noggrannhet, skickas till vår server, jämförs med arenans område och kastas direkt. Den sparas aldrig, loggas aldrig och skrivs aldrig till disk, varken på servern eller i mobilen. Det enda som sparas är svaret: ja eller nej. Om du startar utan täckning hålls positionen bara i appens minne tills servern har svarat.</p>
+    <p>Försöker du igen före avspark görs en ny kontroll på samma sätt. Appen visar ungefärligt avstånd till arenan (avrundat till 100 m) när platsen inte kunde verifieras. Det avståndet sparas inte heller.</p>
+    <p>Säger du nej till platsen fungerar matchläget ändå, men matchen blir inte verifierad och ger inga poäng. Appen använder aldrig platsen i bakgrunden.</p>
+
+    <h2 id="andra">4. Vad andra användare ser</h2>
+    <ul>
+      <li>Din e-postadress visas aldrig för andra.</li>
+      <li>Om du har valt <strong>Visa mig i topplistorna</strong>: ditt alias, dina verifierade minuter och antal matcher i säsongens topplista, och ditt alias i matchens fokuslista om du hade full fokus. Listorna syns bara för inloggade användare i appen. Du kan stänga av det när som helst under Profil.</li>
+      <li>Läktartävlingen visar bara sammanräknade siffror per läktare, och bara när minst 10 personer räknas i samma läktare och match. Ingen enskild person namnges där, oavsett om du syns i topplistorna eller inte.</li>
+      <li>Om ditt alias har dolts efter rapporter visas det som "Dold supporter" för andra.</li>
+      <li>Delningsbilden skapas i din mobil och skickas bara dit du själv väljer. Vi får ingen kopia.</li>
+    </ul>
+
+    <h2 id="mobilen">5. Det som bara finns i din mobil</h2>
+    <p>Appen sparar en del uppgifter lokalt i mobilen: låshändelserna tills de har skickats, dina inställningar, din inloggning och den slumpade installationsnyckeln (i iOS nyckelring). Det används bara av appen och skickas bara till vår server enligt avsnitt 2. När du tar bort appen tas dess filer bort. Uppgifter i iOS nyckelring, som installationsnyckeln, kan ligga kvar tills mobilen återställs.</p>
+
+    <h2 id="mottagare">6. Vilka som behandlar uppgifterna åt oss</h2>
+    <ul>
+      <li><strong>Supabase</strong> (Supabase Inc.): databas, inloggning och serverfunktioner. Projektet ligger i Amazon Web Services region eu-west-1 i Irland. Supabase är personuppgiftsbiträde. Personuppgiftsbiträdesavtalet ingår i Supabase användarvillkor. Supabase skickar också koden för Glömt lösenord med sin inbyggda e-posttjänst.</li>
+      <li><strong>Expo</strong> (650 Industries, Inc., USA): förmedlar notiser till Apple. Expo får notis-token och notisens text. Expo är personuppgiftsbiträde enligt Expos användarvillkor.</li>
+      <li><strong>Apple</strong>: levererar notiser till din iPhone (Apple Push Notification service). Apple behandlar även uppgifter när du laddar ner appen via App Store. Apple gör det enligt sin egen integritetspolicy, och för användare i EU ansvarar Apple Distribution International Ltd i Irland.</li>
+    </ul>
+    <p>Uppgifter lämnas i övrigt bara ut om lagen kräver det. Ingen annan, inte heller AIK, får uppgifter från appen.</p>
+
+    <h2 id="overforing">7. Överföring utanför EU</h2>
+    <p>Databasen ligger i EU. Expo och Apple är amerikanska bolag, och Supabase Inc. är också amerikanskt, så uppgifter kan behandlas i eller nås från USA.</p>
+    <ul>
+      <li><strong>Supabase:</strong> EU-kommissionens standardavtalsklausuler, enligt Supabase personuppgiftsbiträdesavtal.</li>
+      <li><strong>Expo:</strong> Expo är anslutet till EU-US Data Privacy Framework och hänvisar i sina villkor till EU-kommissionens standardavtalsklausuler.</li>
+      <li><strong>Apple:</strong> EU-kommissionens standardavtalsklausuler, enligt Apples integritetspolicy.</li>
+    </ul>
+
+    <h2 id="radera">8. Radera ditt konto</h2>
+    <p>Du raderar kontot i appen: <strong>Profil, Radera konto</strong>. Kontot raderas direkt och det går inte att ångra. Det här händer:</p>
+    <ul>
+      <li><strong>Raderas:</strong> e-post och lösenord, profilen och aliaset, villkorsgodkännandet, alla matcher, låshändelser och resultat, notis-tokens och notiser, dina blockeringar och andras blockeringar av dig, rapporter mot ditt alias och granskningshistoriken.</li>
+      <li><strong>Avidentifieras:</strong> poänghistoriken (summorna finns kvar utan koppling till dig) och rapporter du har skickat (utan koppling till dig).</li>
+      <li><strong>Ändras inte:</strong> läktartävlingens publicerade siffror för avslutade matcher, eftersom de bara är sammanräknade värden utan koppling till någon person.</li>
+    </ul>
+    <p>Kommer du inte åt appen kan du mejla <a href="mailto:info@tickettaka.se">info@tickettaka.se</a> från adressen du registrerade, så raderar vi kontot åt dig.</p>
+    <p>Raderade uppgifter kan finnas kvar i Supabase säkerhetskopior i högst 7 dagar, tills kopian går ut.</p>
+
+    <h2 id="rattigheter">9. Dina rättigheter</h2>
+    <ul>
+      <li><strong>Tillgång:</strong> du kan få en kopia av uppgifterna vi har om dig. Mycket ser du direkt i appen under Statistik och Profil.</li>
+      <li><strong>Rättelse:</strong> alias och läktare ändrar du i appen. E-postadressen går inte att byta i appen ännu. Mejla oss så hjälper vi dig.</li>
+      <li><strong>Radering:</strong> direkt i appen, se <a href="#radera">avsnitt 8</a>.</li>
+      <li><strong>Dataportabilitet:</strong> du kan få dina uppgifter i ett maskinläsbart format (JSON).</li>
+      <li><strong>Invändning:</strong> du kan invända mot behandling som bygger på berättigat intresse.</li>
+      <li><strong>Återkalla samtycke:</strong> stäng av Visa mig i topplistorna under Profil.</li>
+      <li><strong>Begränsning:</strong> du kan be oss begränsa behandlingen medan en fråga utreds.</li>
+    </ul>
+    <p>Mejla <a href="mailto:info@tickettaka.se">info@tickettaka.se</a> från adressen du registrerade, så svarar vi senast inom en månad.</p>
+
+    <h2 id="sakerhet">10. Säkerhet</h2>
+    <p>All trafik mellan appen och servern är krypterad (HTTPS). Databasen har behörighetsregler som gör att varje användare bara kan läsa sina egna uppgifter, och inga funktioner i appen lämnar ut någon annans e-post eller användar-id. Lösenord och installationsnyckel sparas bara som hashvärden. Bara utgivaren har tillgång till databasen.</p>
+
+    <h2 id="barn">11. Barn</h2>
+    <p>Appen är för dig som är minst 13 år. Vi frågar inte efter ålder i appen. Får vi veta att någon under 13 år har ett konto raderar vi det.</p>
+
+    <h2 id="andringar">12. Ändringar</h2>
+    <p>Ändras policyn uppdaterar vi datumet överst. Väsentliga ändringar meddelar vi i god tid, till exempel via e-post till adressen på ditt konto.</p>
+
+    <h2 id="kontakt">13. Kontakt och klagomål</h2>
+    <p>Frågor om dina uppgifter: <a href="mailto:info@tickettaka.se">info@tickettaka.se</a>.</p>
+    <p>Du har rätt att klaga hos Integritetsskyddsmyndigheten (IMY), <a href="https://www.imy.se">www.imy.se</a>, om du anser att vi behandlar dina uppgifter fel.</p>
+  </main>
+  <footer>
+    <div class="foot">
+      <p>Svartgul mobil är ett fristående supporterinitiativ och är inte officiellt kopplat till AIK.</p>
+      <p>Utgivare och personuppgiftsansvarig: Dennis Santesson, privatperson. <a href="mailto:info@tickettaka.se">info@tickettaka.se</a></p>
+      <p><a href="villkor.html">Villkor</a> · <a href="integritetspolicy.html">Integritetspolicy</a> · <a href="support.html">Support</a></p>
+    </div>
+  </footer>
+</body>
+</html>
